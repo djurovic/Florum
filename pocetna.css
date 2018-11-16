@@ -1,0 +1,25 @@
+body{
+    background: url(slike/background.png)
+}
+.tekst{
+	/*margin: 35px;*/
+	text-align: center;
+}
+
+.welcome{
+	 text-align: center;
+
+}
+#carouselExampleSlidesOnly{
+   /* margin-left: 20%;
+    margin-right: 20%;*/
+    margin-top: 5%;
+}
+.copyRight{
+    margin-left: 2%;
+    float: left;
+    text-align: right;
+}
+.carousel-inner img {
+    margin: auto;
+  }

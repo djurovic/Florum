@@ -1,5 +1,6 @@
 body{
-    background: url(slike/background.png)
+    /*background: url(slike/background.png)*/
+    background: #f1f1f1
 }
 .tekst{
 	/*margin: 35px;*/

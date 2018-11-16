@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Milan Curković">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kontakt</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body style="background: url(background.png)">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  	  <a class="navbar-brand" href="pocetna.html">Logo</a>
+  	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  	    <span class="navbar-toggler-icon"></span>
+  	  </button>
+  	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  	    <ul class="navbar-nav mr-auto">
+  	      <li class="nav-item active">
+  	        <a class="nav-link" href="pocetna.html">Početna <span class="sr-only">(current)</span></a>
+  	      </li>
+  	      <li class="nav-item active">
+  	        <a class="nav-link" href="galerija.html">Galerija <span class="sr-only">(current)</span></a>
+  	      </li>
+  	      <li class="nav-item active">
+  	        <a class="nav-link" href="kontakt.html">Kontakt <span class="sr-only">(current)</span></a>
+  	      </li>
+  	    </ul>
+  	  </div>
+  	</nav>
+
+  <div class="container" style="color: black; padding-top: 20px; padding-bottom: 30px;">
+   <div class="row">
+     <!-- opis -->
+     <div class="col-6">
+       <!-- mapa -->
+<div class="col-12 pb-5 pt-4 m-auto col-lg-12 col-xs-6 col-sm-12">
+  <div class="embed-responsive embed-responsive-1by1">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d858.9383873160255!2d20.472058335399158!3d43.920293347431176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDU1JzEzLjEiTiAyMMKwMjgnMjIuMiJF!5e1!3m2!1ssr!2srs!4v1542388197296"
+    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+</div>
+<!-- kraj mape -->
+       <h5 class="text-uppercase mb-2">Obratite nam se putem</h5>
+       <i class="fas fa-mobile-alt fa-3x mr-3"></i>
+       <b">0123456789</b>
+       <br>
+       <i class="fas fa-envelope fa-3x mt-3 mr-3"></i>
+       <b">email@gmail.com</b>
+   </div>
+     <!-- kraj opisa -->
+        <div class="col-6 pt-4 col-lg-6 col-xs-6 col-sm-12">
+          <!-- kontakt forma -->
+          <form action="mailto:someone@example.com" name="sentMessage" id="contactForm" method="post" enctype="text/plain" novalidate="">
+            <div class="control-group form-group">
+              <div class="controls">
+                <input type="text" class="form-control" id="name" placeholder="Unesite ime i prezime">
+                <p class="help-block"></p>
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <input type="tel" class="form-control" id="phone" placeholder="Unesite broj telefona">
+                <div class="help-block"></div>
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <input type="email" class="form-control" id="email" placeholder="Unesite e-mail adresu">
+                <div class="help-block"></div>
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <textarea rows="10" cols="100" class="form-control" id="message" placeholder="Unesite poruku"
+                  maxlength="400" style="resize:none"></textarea>
+                <div class="help-block"></div>
+              </div>
+            </div>
+            <div id="success"></div>
+            <button type="submit" class="btn btn-primary" id="sendMessageButton">Pošalji</button>
+          </form>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div class="table-responsive">
+                  <table class="table table-hover table-dark col-lg-6" style="cursor: pointer;">
+                    <thead>
+                    <tr>
+                      <th colspan="2">Radno vreme:</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr style="text-align: center;">
+                      <th>Ponedeljak</th>
+                      <th>Utorak</th>
+                      <th>Sreda</th>
+                      <th>Četvrtak</th>
+                      <th>Petak</th>
+                      <th>Subota</th>
+                    </tr>
+                    <tr>
+                      <td>09–17 h</td>
+                      <td>09–17 h</td>
+                      <td>09–17 h</td>
+                      <td>09–17 h</td>
+                      <td>09–17 h</td>
+                      <td>09–17 h</td>
+                    </tr>
+                    </tbody>
+                  </table>
+              </div>
+        </div>
+
+
+
+<div class="author ">
+<hr>
+<p class="copyRight">Copyright &copy;2018 Florum</p>
+</div>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

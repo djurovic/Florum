@@ -1,0 +1,28 @@
+body{
+    background: url(slike/background.png);
+}
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer{
+    display: block;
+  }
+  
+  .thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .mojaGelrija{
+    /*margin: 0px 40px;*/
+    padding: 20px;
+  }
+  .mojaGelrija img{
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+  }
+  .mojaGelrija img:hover{
+    transform: scale(1.1);
+  }

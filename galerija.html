@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Galerija</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="galerija.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css">
+
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="pocetna.html">Logo</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>  
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="pocetna.html">Početna <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="galerija.html">Galerija <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="kontakt.html">Kontakt <span class="sr-only">(current)</span></a>
+	      </li>
+	    </ul>
+	  </div>
+    </nav>
+
+
+    <div class="mojaGelrija">
+            <a href="slike/galerija1.jpg" data-lightbox="mygallery"><img src="slike/galerija1.jpg" ></a>
+            <a href="slike/galerija2.jpg" data-lightbox="mygallery"><img src="slike/galerija2.jpg" ></a>
+            <a href="slike/galerija3.jpg" data-lightbox="mygallery"><img src="slike/galerija3.jpg" ></a>
+            <a href="slike/galerija4.jpg" data-lightbox="mygallery"><img src="slike/galerija4.jpg"></a>
+            <a href="slike/galerija5.jpg" data-lightbox="mygallery"><img src="slike/galerija5.jpg" ></a>
+            <a href="slike/galerija6.jpg" data-lightbox="mygallery"><img src="slike/galerija6.jpg" ></a>
+            <a href="slike/galerija7.jpg" data-lightbox="mygallery"><img src="slike/galerija7.jpg" ></a>
+            <a href="slike/galerija8.jpg" data-lightbox="mygallery"><img src="slike/galerija8.jpg"></a>
+            <a href="slike/galerija9.jpg" data-lightbox="mygallery"><img src="slike/galerija9.jpg"></a>
+            <a href="slike/galerija10.jpg" data-lightbox="mygallery"><img src="slike/galerija10.jpg"></a>
+            <a href="slike/galerija11.jpg" data-lightbox="mygallery"><img src="slike/galerija11.jpg"></a>
+            <a href="slike/galerija12.jpg" data-lightbox="mygallery"><img src="slike/galerija12.jpg"></a>
+            <a href="slike/galerija13.jpg" data-lightbox="mygallery"><img src="slike/galerija13.jpg"></a>
+            <a href="slike/galerija14.jpg" data-lightbox="mygallery"><img src="slike/galerija14.jpg"></a>
+            <a href="slike/galerija15.jpg" data-lightbox="mygallery"><img src="slike/galerija15.jpg"></a>
+            <a href="slike/galerija16.jpg" data-lightbox="mygallery"><img src="slike/galerija16.jpg"></a>
+            <a href="slike/galerija17.jpg" data-lightbox="mygallery"><img src="slike/galerija17.jpg"></a>
+            <a href="slike/galerija18.jpg" data-lightbox="mygallery"><img src="slike/galerija18.jpg"></a>
+    </div>
+
+            
+
+          <!-- skripta za geleriju -->
+          <script>
+          $(document).ready(function(){
+           $(".fancybox").fancybox({
+                 openEffect: "none",
+                 closeEffect: "none"
+             });
+          
+             $(".zoom").hover(function(){
+          
+             $(this).addClass('transition');
+           }, function(){
+          
+             $(this).removeClass('transition');
+           });
+          });
+          </script>
+
+
+
+    <div class="author ">
+        <hr>
+        <p class="copyRight">Copyright &copy;2018 Florum</p>    
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
